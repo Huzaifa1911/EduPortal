@@ -27,8 +27,8 @@ function VideoAdDiv() {
       <div className="content">
         <h2 className="heading">Transform your life through education</h2>
         <p className="about">
-          Mohamad Alaloush launched a new career in software development by
-          taking courses on Udemy. What will you be able to do?
+          Edu launched a new Course in software development. Do you want to
+          join?
         </p>
       </div>
     </div>
