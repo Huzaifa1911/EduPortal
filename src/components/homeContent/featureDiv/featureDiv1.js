@@ -10,7 +10,7 @@ function Feature1() {
     <div className="featureDiv1">
       <FeatureCard
         icon={<OndemandVideoIcon className="icon" />}
-        heading={"130,000 online courses"}
+        heading={"Courses we offered"}
         para={"Enjoy a variety of fresh topics"}
       />
       <FeatureCard

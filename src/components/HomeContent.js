@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import AdImage from "../components/homeContent/adImage";
 import Feature1 from "../components/homeContent/featureDiv/featureDiv1";
 import Feature2 from "../components/homeContent/featureDiv/featureDiv2";
@@ -11,20 +11,21 @@ import UdemyForBusiness from "../components/homeContent/udemyForBusiness";
 import VideoAdDiv from "../components/homeContent/videoAdDiv";
 
 function HomeContent() {
-    return (
-        <div>
-            <AdImage />
-            <Feature1 />
-            <Recommendations />
-            <Feature2 />
-            <FillerDiv />
-            <TopCategories />
-            <BecomeInstructor />
-            <TrustedCompanies />
-            <UdemyForBusiness />
-            <VideoAdDiv />
-        </div>
-    );
+  return (
+    <div>
+      <AdImage />
+      <Feature1 />
+      <Recommendations />
+      {/* <Feature2 /> */}
+      {/* <FillerDiv /> */}
+      <VideoAdDiv />
+      <TopCategories />
+      {/* <BecomeInstructor /> */}
+      {/* <TrustedCompanies /> */}
+      <UdemyForBusiness />
+      {/* <VideoAdDiv /> */}
+    </div>
+  );
 }
 
 export default HomeContent;

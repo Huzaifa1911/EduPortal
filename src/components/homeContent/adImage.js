@@ -7,10 +7,7 @@ function AdImage() {
     <div className="adImageDiv">
       <div className="offerDiv">
         <h2>Learn on your schedule</h2>
-        <p>
-          Study any topic, anytime. Explore thousands of courses starting at
-          ₹455 each.
-        </p>
+        <p>Study any topic, anytime.</p>
         <div className="searchBarDiv">
           <input
             className="searchBar"

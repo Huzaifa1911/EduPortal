@@ -6,11 +6,14 @@ function UdemyForBusiness() {
     <div className="udemyForBusiness">
       <div className="backgroundColorDiv"></div>
       <div className="contentDiv">
-        <h2 className="heading">Udemy for Business</h2>
-        <p className="about">
-          Get unlimited access to 4,000+ of Udemy's top courses for your team.
-        </p>
-        <div className="startTeching button">Get Udemy for Business</div>
+        <h2 className="heading">The more you know, the more you grow.</h2>
+        <p className="about">Email us, we'll get back to you.</p>
+        <div
+          className="startTeching button"
+          onClick={() => (window.location = "mailto:yourmail@domain.com")}
+        >
+          Email
+        </div>
       </div>
       <img
         src="https://s.udemycdn.com/home/non-student-cta/udlite-lohp-promo-ufb.jpg"

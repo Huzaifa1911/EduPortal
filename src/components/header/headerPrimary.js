@@ -1,6 +1,5 @@
 import React from "react";
 import "../../components/header/headerPrimary.css";
-import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import SearchOutlinedIcon from "@material-ui/icons/SearchOutlined";
 
 function HeaderPrimary() {
@@ -21,15 +20,6 @@ function HeaderPrimary() {
         <input className="searchBar" placeholder="Search for anything"></input>
       </div>
       <div className="right part">
-        <div className="businessDiv">
-          <span className="business">Udemy for Business</span>
-        </div>
-        <div className="teachDiv">
-          <span className="teach">Teach on Udemy</span>
-        </div>
-        <div className="cartDiv">
-          <ShoppingCartOutlinedIcon className="icon" />
-        </div>
         <div className="login button">Log In</div>
         <div className="signup button">Sign up</div>
       </div>
