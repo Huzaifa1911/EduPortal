@@ -6,7 +6,7 @@ function AdImage() {
   return (
     <div className="adImageDiv">
       <div className="offerDiv">
-        <h2>Learn on your schedule</h2>
+        <h2>Learn online with us.</h2>
         <p>Study any topic, anytime.</p>
         <div className="searchBarDiv">
           <input

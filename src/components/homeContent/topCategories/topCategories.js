@@ -11,27 +11,27 @@ function TopCategories() {
           imgSrc={
             "https://s.udemycdn.com/home/top-categories/lohp-category-design.jpg"
           }
-          title={"Design"}
+          title={"Maths"}
         />
         <CategoryCard
           imgSrc={
             "https://s.udemycdn.com/home/top-categories/lohp-category-development.jpg"
           }
-          title={"Development"}
+          title={"Statistics"}
         />
         <CategoryCard
           imgSrc={
             "https://s.udemycdn.com/home/top-categories/lohp-category-marketing.jpg"
           }
-          title={"Marketing"}
+          title={"Economics"}
         />
         <CategoryCard
           imgSrc={
             "https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software.jpg"
           }
-          title={"IT and Software"}
+          title={"Social Sciences"}
         />
-        <CategoryCard
+        {/* <CategoryCard
           imgSrc={
             "https://s.udemycdn.com/home/top-categories/lohp-category-personal-development.jpg"
           }
@@ -54,7 +54,7 @@ function TopCategories() {
             "https://s.udemycdn.com/home/top-categories/lohp-category-music.jpg"
           }
           title={"Music"}
-        />
+        /> */}
       </div>
     </div>
   );

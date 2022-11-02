@@ -25,7 +25,7 @@ function VideoAdDiv() {
         ></iframe>
       </div>
       <div className="content">
-        <h2 className="heading">Transform your life through education</h2>
+        <h2 className="heading">Link to your youtube channel</h2>
         <p className="about">
           Edu launched a new Course in software development. Do you want to
           join?
